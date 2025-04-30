@@ -54,7 +54,7 @@ This package adds the following Sitecore Powershell Context Menu Extensions and 
 
 ![screenshot of items installed](Screenshots/13_sync_ps_library.png "Demo")
 
-**Step 4**: Enable Developer tab on ribbon
+**Step 4: Enable Developer tab on ribbon**
 
 - Navigate to the sitecore desktop and right click ribbon.
 - Select Developer from the list if the developer tab is not enabled
