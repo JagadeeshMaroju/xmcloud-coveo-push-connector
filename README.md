@@ -79,9 +79,26 @@ Ribbon buttons
     ![screenshot of items installed](Screenshots/05_index_confirmation.png "Demo")
 
 
-**NOTE:**
+**Use the Module in Workflow Approved State**
+
+This module can be integrated with the workflow’s "Approved" state to automatically push content to Coveo once an item is approved and published.
+
+- To achieve this, create a PowerShell script action under the Approved state in your workflow.
+
+- After creating the action, specify the script path (Script Library/SPE/Coveo/Coveo/Content Editor/Ribbon/Developer/Coveo/Index Item) in the "Script - link to the item under the Script Library".
+
+- In the Rules field, add the rule: "Where the item has a layout" to ensure only page items are targeted.
+  
+   ![screenshot of items installed](Screenshots/06_workflow.png "Demo")
+
+With this setup, whenever a page item is approved and published, it will also be pushed to the configured Coveo source automatically.
+
+**NOTES:**
 
 - If you need to use a specific field from the page item or its associated rendering datasource item as the image for search results, open the PowerShell script located at "/sitecore/system/Modules/PowerShell/Script Library/SPE/Coveo/Coveo/Content Editor/Ribbon/Developer/Coveo/Index Item" and assign the desired field name to the $imageFieldNameToUse variable. The value from this field will be used as the imageUrl in the search document, allowing it to appear as the image in the search results on the search page.
+
+
+   
 
 
 
