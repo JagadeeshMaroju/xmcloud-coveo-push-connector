@@ -67,16 +67,16 @@ This package adds the following Sitecore Powershell Context Menu Extensions and 
 Ribbon buttons 
 - Index Item - to push the sitecore page item content. This button will be enabled only for the items which has layout.
 
-    ![screenshot of items installed](screenshots/04_ribbon_button.PNG "Demo")
+    ![screenshot of items installed](Screenshots/04_ribbon_button.png "Demo")
 
 
 - Index Item confirmation
 
-    ![screenshot of items installed](screenshots/05_index_confirmation.PNG "Demo")
+    ![screenshot of items installed](Screenshots/05_index_confirmation.png "Demo")
 
 - Output Results
 
-    ![screenshot of items installed](screenshots/05_index_confirmation.PNG "Demo")
+    ![screenshot of items installed](Screenshots/05_index_confirmation.png "Demo")
 
 
 **NOTE:**
