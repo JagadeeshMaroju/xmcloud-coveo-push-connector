@@ -17,11 +17,11 @@ Repeat these steps for each environment where you want to install the package.
 
 This package adds the following Sitecore Powershell Context Menu Extensions and Function items:
 
-![screenshot of items installed](screenshots/01_added_template.PNG "Demo")
+![screenshot of items installed](Screenshots/01_added_template.png "Demo")
 
-![screenshot of items installed](screenshots/02_item_added.PNG "Demo")
+![screenshot of items installed](Screenshots/02_item_added.png "Demo")
 
-![screenshot of items installed](screenshots/03_added_powershell_module.PNG "Demo")
+![screenshot of items installed](Screenshots/03_added_powershell_module.png "Demo")
 
 **Step 2: Add coveo configuration settings to the Sitecore XM cloud deploy project**
 
@@ -52,14 +52,14 @@ This package adds the following Sitecore Powershell Context Menu Extensions and 
 - Navigate to powershell ISE from sitecore desktop developer tools.
 - click on settings->Rebuild All dropdown ->Sync Library with Content Editor Ribbon.
 
-![screenshot of items installed](screenshots/13_sync_ps_library.png "Demo")
+![screenshot of items installed](Screenshots/13_sync_ps_library.png "Demo")
 
 **Step 4**: Enable Developer tab on ribbon
 
 - Navigate to the sitecore desktop and right click ribbon.
 - Select Developer from the list if the developer tab is not enabled
 
-![screenshot of items installed](screenshots/14_enable_developer_tab.png "Demo")
+![screenshot of items installed](Screenshots/14_enable_developer_tab.png "Demo")
 
 
 **Demo Screenshots**
